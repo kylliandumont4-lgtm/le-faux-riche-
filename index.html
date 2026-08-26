@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Le Faux Riche — boutique running B22 B30, style luxe.">
+  <title>Le Faux Riche — Running B22 B30</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#">LE FAUX RICHE</a>
+    <nav>
+      <a href="#collection">Collection</a>
+      <a href="#concept">Concept</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="cart" href="#contact">Panier (0)</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">ÉDITION 2026 · RUNNING LUXE</p>
+        <h1>Le luxe,<br><em>sans le prix.</em></h1>
+        <p class="hero-text">Une sélection running inspirée des codes du luxe, pensée pour ceux qui veulent courir avec du style.</p>
+        <a class="button" href="#collection">Découvrir la collection</a>
+      </div>
+    </section>
+
+    <section id="collection" class="collection">
+      <div class="section-head">
+        <p class="eyebrow">LA COLLECTION</p>
+        <h2>Pièces sélectionnées</h2>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <div class="product-image product-b22"><span>B22</span></div>
+          <div class="product-info">
+            <div><h3>B22 Runner</h3><p>Silhouette running premium</p></div>
+            <strong>149 €</strong>
+          </div>
+          <button onclick="addToCart('B22 Runner')">Ajouter au panier</button>
+        </article>
+
+        <article class="product">
+          <div class="product-image product-b30"><span>B30</span></div>
+          <div class="product-info">
+            <div><h3>B30 Runner</h3><p>Performance & élégance</p></div>
+            <strong>169 €</strong>
+          </div>
+          <button onclick="addToCart('B30 Runner')">Ajouter au panier</button>
+        </article>
+
+        <article class="product">
+          <div class="product-image product-kit"><span>LFR</span></div>
+          <div class="product-info">
+            <div><h3>Runner Kit</h3><p>Tenue complète signature</p></div>
+            <strong>89 €</strong>
+          </div>
+          <button onclick="addToCart('Runner Kit')">Ajouter au panier</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="concept" class="concept">
+      <div>
+        <p class="eyebrow">LE CONCEPT</p>
+        <h2>Faire luxe.<br>Pas faire semblant.</h2>
+      </div>
+      <p>Le Faux Riche joue avec les codes de la boutique haut de gamme : présentation minimaliste, détails soignés et attitude décalée. Une marque fictive pensée comme une vraie boutique.</p>
+    </section>
+
+    <section class="banner">
+      <p>RUN FAST · LOOK EXPENSIVE · STAY HUMBLE</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Une question ?</h2>
+      <p>Écris-nous à <a href="mailto:contact@lefauxriche.fr">contact@lefauxriche.fr</a></p>
+      <p class="small">Boutique de démonstration — les produits et prix présentés sont fictifs.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 LE FAUX RICHE</span>
+    <span>RUNNING / LUXE / HUMOUR</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
